@@ -14,7 +14,7 @@ L.AppendNode(5)
 L.Show() #-> [5]
 ```
 
-**InsertNode(_valor, posição_):** _Adiciona na posição desejada_
+**InsertNode(_valor, posição_):** _Adiciona um nó na posição desejada_
 
 ```py
 import LinkedListLib
@@ -22,7 +22,7 @@ import LinkedListLib
 L = LinkedListLib.NewLinkedList()
 L.InsertNode(5,2)
 L.InsertNode(1,1)
-L.Show() #-> [5, 1]
+L.Show() #-> [1,5]
 ```
 
 **RemoveNode(_valor, posição_):** _Adiciona um nó no final dos nós_
