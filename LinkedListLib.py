@@ -51,23 +51,23 @@ class NewLinkedList:
 	def ShowFirst(self): #Mostra o ultimo nó
 		print(self.Nodes[0]) #Pega o ultimo nó e mostra na tela
 
-	def GetAll(self):
-		return self.Nodes
+	def GetAll(self): #Pega todos os nós
+		return self.Nodes #Retorna todos os nós
 
-	def GetLast(self):
-		return self.Nodes[-1]
+	def GetLast(self): #Pega o ultimo nó
+		return self.Nodes[-1] #Retorna o ultimo´nó
 
-	def GetFirst(self):
-		return self.Nodes[0]
+	def GetFirst(self): #Pega o primeiro nó
+		return self.Nodes[0] #Retorna o primeiro nó
 
-	def ValueInNodes(self,Value):
-		if Value in self.Nodes:
-			return True
-		return False
+	def ValueInNodes(self,Value): #Retorna True 
+		if Value in self.Nodes: #Se o valor estiver nos nós
+			return True #Retorna True
+		return False #Retorna Falso
 
 
-	def GetByIndex(self,Index):
-		return self.Nodes[Index]
+	def GetByIndex(self,Index): #Pega por index
+		return self.Nodes[Index] #Retorna o valor por index
 
 
 
