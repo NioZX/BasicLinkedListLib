@@ -46,9 +46,9 @@ import LinkedListLib
 L = LinkedListLib.NewLinkedList()
 L.InsertNode(5,2)
 L.InsertNode(1,1)
-L.Show() -> [5, 1]
+L.Show() #-> [5, 1]
 L.RemoveLastNode()
-L.Show() -> [5]
+L.Show() #-> [5]
 ```
 
 **PopNode(_posição_):** _Remove o nó na posição desejada_
