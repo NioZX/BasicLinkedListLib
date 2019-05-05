@@ -113,7 +113,6 @@ L = LinkedListLib.NewLinkedList([1,2,2,4,5])
 print(L.ValueInNodes(4)) #-> True
 print(L.ValueInNodes(7)) #-> False
 ```
-**
 
 **GetByIndex(_posição_):** _Retorna um nó por posição_
 
@@ -123,7 +122,6 @@ import LinkedListLib
 L = LinkedListLib.NewLinkedList([1,2,2,4,5])
 print(L.GetByIndex(2)) #-> 2
 ```
-**
 
 
 
